@@ -30,3 +30,7 @@ When a warrior starts swimming, he first notifies this to the treasure chest. Wh
 treasure chest, it notifies all the other warriors that there is a winner. Other warriors should stop moving upon the
 receipt of this message. This is the end of the game, and the information of the winner should be recorded in the
 permanent storage, along with the finishing time.
+
+
+
+Clone this reposistory and run the game demo class.

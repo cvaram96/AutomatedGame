@@ -1,3 +1,5 @@
+import static java.lang.Math.sqrt;
+
 public class SuperSwimmer extends Swimmer {
     private Binocular binocular;
     //constructing the super swimmer with Binocular

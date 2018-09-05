@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Random;
+
 public class GameDemo {
     public static ArrayList<Activity> Inhabitants = new ArrayList<Activity>();
     public static ArrayList<Swimmer> swimmers=new ArrayList<>();
@@ -82,7 +85,7 @@ public class GameDemo {
     }
 
 }
-class SwimmerThread extends Thread implements Observer{
+class SwimmerThread extends Thread implements Observer {
     private Swimmer swimmer;
     private Treasure treasure;
 

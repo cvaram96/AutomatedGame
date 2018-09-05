@@ -1,4 +1,4 @@
-public class Fish extends LivingThing implements Activity{
+public class Fish extends LivingThing implements Activity {
     // constructor for the fish
     public Fish(String name) {
         super(name);

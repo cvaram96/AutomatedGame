@@ -1,4 +1,6 @@
-public abstract class Swimmer extends LivingThing implements Activity{
+import static java.lang.Math.sqrt;
+
+public abstract class Swimmer extends LivingThing implements Activity {
     private SwimFin swimFin;
     private boolean isLive = true;
     private Lotus l;

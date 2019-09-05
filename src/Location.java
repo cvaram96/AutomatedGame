@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Location {
     private int x;//this is the x value for location
     private int y;//this is the y value for location

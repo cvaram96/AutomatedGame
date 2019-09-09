@@ -1,6 +1,9 @@
-public class Treasure  implements Obsevable{
+import java.util.HashMap;
+import java.util.Map;
+
+public class Treasure  implements Obsevable {
     private Location location;
-    private HashMap<Observer,Location>hm =new HashMap<>();
+    private HashMap<Observer,Location> hm =new HashMap<>();
 
     public Treasure(Location location) {
         this.location = location;
@@ -31,7 +34,7 @@ public class Treasure  implements Obsevable{
 
     }
     public void Notify(){
-        for (Map.Entry<Observer,Location> entry :hm.entrySet()
+        for (Map.Entry<Observer, Location> entry :hm.entrySet()
 
         ) {
             if (entry.getKey() instanceof SwimmerThread){
